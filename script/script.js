@@ -16,3 +16,6 @@ else if (eta > 65) {
     prezzo_finale = prezzo_base - sconto;
 }
 
+let prezzo = prezzo_finale.toFixed(2);
+
+
