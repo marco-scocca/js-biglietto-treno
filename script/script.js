@@ -18,4 +18,4 @@ else if (eta > 65) {
 
 let prezzo = prezzo_finale.toFixed(2);
 
-
+document.getElementById('prezzo_finale').innerText = `Il prezzo è ${prezzo}`;
